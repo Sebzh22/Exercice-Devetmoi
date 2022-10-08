@@ -91,3 +91,47 @@ h1{
 #quote {
     max-width: 600px;
 }
+
+/*Footer*/
+
+footer{
+    background-color: #5b359d;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer h2{
+    font-size: 12px;
+    margin: 20px 0 10px 0;
+}
+
+#footer-social{
+    width: 250px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    opacity: 0.6;
+}
+#footer-items{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer-item h3{
+    font-size: 14px;
+    font-weight: 400;
+    opacity: 0.6;
+}
+
+.footer-item li{
+    font-size: 14px;
+}
+
+@media screen and (max-width: 550px){
+    #information, #footer-items {
+        flex-direction: column
+    }
+}
